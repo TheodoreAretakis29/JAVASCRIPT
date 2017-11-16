@@ -18,5 +18,7 @@ console.log(9 / 3); // Equals 3
 
 - For example, every string instance has a property called length that stores the number of characters in it. You can retrieve property information by appending the string with a period and the property name:
 
-console.log('Hello'.length);
+- console.log('Hello'.length);
 In the example above, the value saved to the length property is retrieved from the string, 'Hello'. The program prints 5 to the console, because Hello has five characters in it.
+On the first line, the .toUpperCase() method is called on the string instance 'Hello'. The result is logged to the console. This method returns a string in all capital letters: 'HELLO'.
+On the second line, the .startsWith() method is called on the string instance "Hey". This method also accepts the character 'H' as an input between the opening and closing parentheses. Since the string 'Hey' does start with the letter 'H', the method returns the boolean true.
