@@ -50,7 +50,8 @@ myName is the variable's name. Notice that the word has no spaces, and we capita
 - The + operator is used to interpolate (combine) multiple strings.
 - In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a string.
 
+- Control flow statements enable JavaScript programs to make decisions by executing code based on a condition. If a given condition is true, we execute one block of code. If the statement is false, we execute another block of code. For instance, if we were making a game in which the user had to choose which door to enter, we'd need a way for the program to know what to do once the user was in the next room.
 
-
-
-
+-Lines of code between curly braces are called blocks. if/else statements have two code blocks. If the variable needsCoffee is true, the program will run the first block of code. Otherwise, it will run the other block of code.
+needsCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will ignore the else { ... } part. In this case, we'd see Finding coffee log to the console.
+If needsCoffee were false, only the console.log() statement in the else block would be executed.
