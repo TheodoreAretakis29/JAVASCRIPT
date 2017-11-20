@@ -41,13 +41,14 @@ myName is the variable's name. Notice that the word has no spaces, and we capita
 - The + operator, known until now as the addition operator, is used to interpolate (insert) a string variable into a string, as follows:
 - Instead of using quotes around the string, use backticks (this key is usually located on the top of your keyboard, left of the 1 key).
 - Wrap your variable with ${myVariable}, followed by a sentence. No +s necessary.
-Review: Variables hold reusable data in a program.
-JavaScript will throw an error if you try to reassign const variables.
-You can reassign variables that you create with the let keyword.
-Unset variables store the primitive data type undefined.
-Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
-The + operator is used to interpolate (combine) multiple strings.
-In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a string.
+
+- Review: Variables hold reusable data in a program.
+- JavaScript will throw an error if you try to reassign const variables.
+- You can reassign variables that you create with the let keyword.
+- Unset variables store the primitive data type undefined.
+- Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
+- The + operator is used to interpolate (combine) multiple strings.
+- In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a string.
 
 
 
