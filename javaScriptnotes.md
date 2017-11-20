@@ -37,5 +37,19 @@ myName is the variable's name. Notice that the word has no spaces, and we capita
 'Arya' is the value assigned (=) to the variable myName.
 -After the variable is declared, we can print 'Arya' to the console with: console.log(myName).
 - The first three operators (+=, -=, and *=) perform the mathematical operation of the first operator (+, -, or *) using the number on the right, then assign the new value to the variable.
-The last two operators are the increment (++) and decrement (--) operators. These operators are responsible for increasing and decreasing a number variable by one, respectively.
-The + operator, known until now as the addition operator, is used to interpolate (insert) a string variable into a string, as follows:
+- The last two operators are the increment (++) and decrement (--) operators. These operators are responsible for increasing and decreasing a number variable by one, respectively.
+- The + operator, known until now as the addition operator, is used to interpolate (insert) a string variable into a string, as follows:
+- Instead of using quotes around the string, use backticks (this key is usually located on the top of your keyboard, left of the 1 key).
+- Wrap your variable with ${myVariable}, followed by a sentence. No +s necessary.
+Review: Variables hold reusable data in a program.
+JavaScript will throw an error if you try to reassign const variables.
+You can reassign variables that you create with the let keyword.
+Unset variables store the primitive data type undefined.
+Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
+The + operator is used to interpolate (combine) multiple strings.
+In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a string.
+
+
+
+
+
