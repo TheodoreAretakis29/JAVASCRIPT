@@ -55,3 +55,14 @@ myName is the variable's name. Notice that the word has no spaces, and we capita
 -Lines of code between curly braces are called blocks. if/else statements have two code blocks. If the variable needsCoffee is true, the program will run the first block of code. Otherwise, it will run the other block of code.
 needsCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will ignore the else { ... } part. In this case, we'd see Finding coffee log to the console.
 If needsCoffee were false, only the console.log() statement in the else block would be executed.
+
+- If we changed if (variableOne) to say if (variableTwo), that condition would evaluate to falsy because we have not created a variable called variableTwo in this program. In other words, variableOne is truthy and variableTwo is falsy.
+
+- false
+- 0 and -0
+- "" and '' (empty strings)
+- null
+- undefined
+- NaN (Not a Number)
+- document.all (something you will rarely encounter)
+- There is an important di
