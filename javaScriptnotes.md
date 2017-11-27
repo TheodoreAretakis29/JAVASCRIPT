@@ -66,3 +66,10 @@ If needsCoffee were false, only the console.log() statement in the else block wo
 - NaN (Not a Number)
 - document.all (something you will rarely encounter)
 - There is an important di
+
+- JavaScript provides an operator for swapping the truthiness and falsiness of values - the exclamation point (!). We can use this in conditional statements as shorthand to check if the value of a variable evaluates to false rather than true.
+
+- To check if two things equal each other, we write === (three = signs in a row).
+To check if two things do not equal each other, we write !== (an exclamation with two = signs in a row).
+
+- To check if two things do not equal each other, we write !== (an exclamation with two = signs in a row).
