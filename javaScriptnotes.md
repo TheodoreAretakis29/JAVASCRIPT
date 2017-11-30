@@ -73,3 +73,20 @@ If needsCoffee were false, only the console.log() statement in the else block wo
 To check if two things do not equal each other, we write !== (an exclamation with two = signs in a row).
 
 - To check if two things do not equal each other, we write !== (an exclamation with two = signs in a row).
+
+- 1. We created a variable named stopLight that is assigned to the string green.
+
+2. Then, there's an if/else statement with multiple conditions, using else if. else if allows us to check multiple values of the stopLight variable and output different things based on its color.
+
+3. The block ends with the singular else we have seen before. The else is a catch-all for any other situation. For instance, if the stopLight was blinking blue, the last else would catch it and return a default message.
+
+- In English, sometimes we say "both of these things" or "either one of these things." Let's translate those phrases into JavaScript with special operators called logical operators.
+
+To say "both must be true," we use &&.
+To say "either can be true," we use ||.
+
+- he switch keyword initiates the statement and is followed by ( ... ), which contains the condition that each case will compare to. In the example, the condition is groceryItem.
+- Inside the block, { ... }, there are cases. case is like the else if part of an if/else if/else statement. The word following the first case is 'tomato'. If groceryItem equalled 'tomato', that case's console.log() would run.
+groceryItem equals 'papaya', so the first and second case statements are skipped. The third case runs since the case is 'papaya', which matches groceryItem's value. This particular program will log Papayas are $1.29.
+- Then the program stops with the break keyword. This keyword will prevent the switch statement from executing any more of its code. Without adding break at the end of each case, the program will execute the code for all matching cases and the default code as well. - -- This behavior is different from if/else conditional statements which execute only one block of code.
+- At the end of each switch statement, there is a default condition. If none of the cases are true, then this code will run.
