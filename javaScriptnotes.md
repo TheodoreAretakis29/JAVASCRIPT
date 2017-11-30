@@ -90,3 +90,25 @@ To say "either can be true," we use ||.
 groceryItem equals 'papaya', so the first and second case statements are skipped. The third case runs since the case is 'papaya', which matches groceryItem's value. This particular program will log Papayas are $1.29.
 - Then the program stops with the break keyword. This keyword will prevent the switch statement from executing any more of its code. Without adding break at the end of each case, the program will execute the code for all matching cases and the default code as well. - -- This behavior is different from if/else conditional statements which execute only one block of code.
 - At the end of each switch statement, there is a default condition. If none of the cases are true, then this code will run.
+
+- isNightTime ? — the conditional statement followed by a question mark. This checks if isNightTime is truthy.
+console.log ('Turn on the lights!') — this code will be executed if the condition is truthy.
+: — a colon separates the two different blocks of code that can be executed.
+console.log('Turn off the lights!'); — this code will be executed if the condition is falsy
+
+- Review: Control Flow
+Way to go! We just learned a lot of control flow concepts:
+
+if/else statements make binary decisions and execute different code based on conditions.
+All conditions are evaluated to be truthy or falsy.
+We can add more conditional statements to if/else statements with else if.
+switch statements make complicated if/else statements easier to read and achieve the same result.
+The ternary operator (?) and a colon (:) allow us to refactor simple if/else statements.
+Comparison operators, including <, >, <=, and >= can compare two variables or values.
+After two values are compared, the conditional statement evaluates to true or false.
+The logical operator && checks if both sides of a condition are truthy.
+The logical operator || checks if either side is truthy.
+The logical operator !== checks if the two sides are not equal.
+An exclamation mark (!) switches the truthiness / falsiness of the value of a variable.
+One equals symbol (=) is used to assign a value to a variable.
+Three equals symbols (===) are used to check if two variables are equal to each other.
